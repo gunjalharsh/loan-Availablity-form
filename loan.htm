@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title class="title">Loan Avail Form</title>
+<h1>Loan Avail Form</h1>
+<script type="text/javascript" src="loan.js"></script> 
+<link rel="stylesheet" type="text/css" href="loan.css">
+
+</head>
+<body>
+	<center>
+<form class="form">
+  Name: <input type="text" class="name" name="usrname">
+  
+
+<br><br>
+Address:<textarea class="address" rows="2" cols="32"  name="comment" form="usrform" placeholder="Enter text here..." ></textarea>
+<br><br>
+Gender:    <input type="radio" class="gender" name="gender" value="male" checked> Male
+       		 <input type="radio" name="gender" value="female"> Female
+ 			 <input type="radio" name="gender" value="other"> Other  <br><br>
+ 			
+Email:		<input type="email" class="email" name="email" placeholder="xyz@abc.com" required="1"><br><br>
+Mobile No.:	<input type="text" class="mobile" maxlength="10" name="" placeholder="Enter Mobile No." required="1"><br><br>
+  Birthday: <input type="date" class="birth" name="bday"><br>
+  <br>
+  Loan Type:  <select class="loan">
+  	
+  					<option value="personal">Personal</option>
+  					<option value="car"> car</option>
+  					<option value="medical"> Medical</option>
+  					<option value="home"> Home</option>
+</select><br><br>
+Loan Amount:  <input type="number" class="amount" name="number" required><br><br>
+Tenure:		<select class="tenure">
+					<option value="1"> 1year</option>
+					<option value="2"> 2year</option>
+					<option value="3"> 3year</option>
+					<option value="4"> 4year</option>
+</select><br><br>
+
+<button type="Avail Loan" form="form1" value="Avail Loan">Avail Loan</button>
+
+ <input type="reset" class="reset" value="Reset">
+
+
+</form></center>
+</body>
+</html>
